@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="mainGrid">
+      <header class="header">
+        <div class="logo">
+          <img src="ikea-logo.png" alt="" width="200px" />
+        </div>
+      </header>
+
+      <div class="hero">
+        <div class="heroText">
+          <h1>Bli <span>IKEA Family</span> medlem</h1>
+          <p>Är du redan medlem? <a href="#">Logga in</a></p>
+        </div>
+        <div class="heroBilder">
+          <div class="gallery__item gallery__item--1"></div>
+          <div class="gallery__item gallery__item--2"></div>
+          <div class="gallery__item gallery__item--3"></div>
+          <div class="gallery__item gallery__item--4"></div>
+          <div class="gallery__item gallery__item--5"></div>
+          <div class="gallery__item gallery__item--6"></div>
+          <div class="gallery__item gallery__item--7"></div>
+          <div class="gallery__item gallery__item--8"></div>
+          <div class="gallery__item gallery__item--9"></div>
+        </div>
+      </div>
+      <main>
+        <div class="mainText">
+          <h3>
+            Vad kul att du vill skapa ett konto hos oss! Välj om du vill bli
+            IKEA Family medlem, helt utan kostnad. Annars skapar du ett enkelt
+            IKEA konto utan några extra förmåner.
+          </h3>
+        </div>
+        <div class="mainContainer">
+          <form action="https://httpbin.org/anything" method="post">
+            <div class="mainItem1">
+              <input
+                class="radio"
+                type="radio"
+                name="radio"
+                id="buttonYes"
+                required
+              />
+              <label for="buttonYes"
+                >Ja, jag vill bli medlem och ta del av förmåner, medlemspriser
+                och mycket mer! Mer information</label
+              >
+            </div>
+            <div class="mainItem2">
+              <input
+                class="radio"
+                type="radio"
+                name="radio"
+                id="buttonNo"
+                required
+              />
+              <label for="buttonNo"
+                >Nej, jag vill inte bli medlem, utan bara skapa ett IKEA konto
+                utan extra förmåner. Mer information</label
+              >
+            </div>
+            <div class="mainItem3">
+              <label for="personnummer">Personnummer</label>
+              <input
+                class="input"
+                type="number"
+                name="personnummer"
+                id="personnummer"
+                required
+              />
+            </div>
+            <div class="mainItem4">
+              <label for="förnamn">Förnamn</label>
+              <input
+                class="input"
+                type="text"
+                name="förnamn"
+                id="förnamn"
+                required
+              />
+            </div>
+            <div class="mainItem5">
+              <label for="efternamn">Efternamn</label>
+              <input
+                class="input"
+                type="text"
+                name="efternamn"
+                id="efternamn"
+                required
+              />
+            </div>
+            <div class="mainItem6">
+              <label for="önskatvaruhus">Önskat Varuhus</label>
+              <select
+                class="input"
+                type="text"
+                name="önskatvaruhus"
+                id="önskatvaruhus"
+                required
+              >
+                <option value="0">Välj varuhus</option>
+                <option value="1">Borlänge</option>
+                <option value="2">Umeå</option>
+                <option value="3">Happaranda</option>
+                <option value="4">Stockholm</option>
+                <option value="5">Gallerian</option>
+                <option value="6">Jönköping</option>
+              </select>
+            </div>
+
+            <div class="mainItem7">
+              <label for="telefonnummer">Telfonnummer (valfritt)</label>
+              <input
+                class="input"
+                type="number"
+                name="telefonnummer"
+                id="telefonnummer"
+                maxlength="10"
+              />
+            </div>
+
+            <div class="mainItem8">
+              <label for="email">Email</label>
+              <input
+                class="input"
+                type="email"
+                name="email"
+                id="email"
+                required
+              />
+            </div>
+
+            <div class="mainItem9">
+              <label for="password">Password</label>
+              <input
+                maxlength="10"
+                class="input"
+                type="password"
+                name="password"
+                id="password"
+                required
+              />
+            </div>
+
+            <div class="mainItem10">
+              <label for="integritetspolicy">
+                <input
+                  class="checkbox"
+                  type="checkbox"
+                  name="integritetspolicy"
+                  id="integritetspolicy"
+                  required
+                />Jag har läst och förstått
+                <a href="">Integritetspolicy.</a></label
+              >
+            </div>
+            <div class="mainItem11">
+              <label for="användarvillkor">
+                <input
+                  class="checkbox"
+                  type="checkbox"
+                  name="användarvillkor"
+                  id="användarvillkor"
+                  required
+                />Jag har läst och accepterar
+                <a href="">Användarvillkor.</a></label
+              >
+            </div>
+
+            <div class="mainItem13">
+              <label for="feedback">Hur kan vi förbättra oss?</label>
+              <textarea
+                class="textArea"
+                name="feedback"
+                id="feedback"
+                placeholder="Vad tycker du om IKEA?"
+              ></textarea>
+            </div>
+            <div class="mainItem14">
+              <label for="feedback2">Hur hittade du oss?</label>
+              <textarea
+                class="textArea"
+                name="feedback2"
+                id="feedback2"
+                placeholder="Hur hittade du oss?"
+              ></textarea>
+            </div>
+
+            <div class="mainItem12">
+              <input class="submit" type="submit" />
+            </div>
+          </form>
+        </div>
+      </main>
+      <footer>
+        <p>
+          IKEA.se - Cookiepolicy och Integritetspolicy © Inter IKEA Systems B.V.
+          1999-2023
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>

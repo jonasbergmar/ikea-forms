@@ -1,0 +1,270 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+h3 {
+  font-size: 16px;
+}
+
+label {
+  width: 400px;
+}
+
+.mainGrid {
+  display: grid;
+  grid-template-areas:
+    "header header"
+    "hero main"
+    "footer footer";
+}
+
+header {
+  grid-area: header;
+}
+
+.hero {
+  grid-area: hero;
+  justify-content: center;
+  margin-left: 40px;
+}
+
+main {
+  grid-area: main;
+  margin-left: 40px;
+  margin-top: 40px;
+}
+
+footer {
+  grid-area: footer;
+  margin: 40px;
+  text-align: center;
+  background-color: #003399d9;
+  color: white;
+}
+
+span {
+  color: #003399d9;
+}
+
+a {
+  color: black;
+}
+
+.heroText {
+  margin-top: 30px;
+}
+
+.heroBilder {
+  display: grid;
+  justify-content: left;
+  grid-template-columns: auto auto;
+  grid-template-rows: repeat(4, auto);
+  gap: 5px;
+  margin-top: 40px;
+}
+
+.gallery__item {
+  height: 250px;
+  width: 180px;
+}
+
+.gallery__item--1 {
+  grid-row: 1;
+  grid-column: 1;
+  background-image: url(mys.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 5px;
+}
+.gallery__item--2 {
+  grid-row: 2;
+  grid-column: 1;
+  background-image: url(mat.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 5px;
+}
+.gallery__item--3 {
+  grid-row: 3;
+  grid-column: 1;
+  background-image: url(oldies.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 5px;
+}
+.gallery__item--4 {
+  grid-row: 4;
+  grid-column: 1;
+  background-image: url(blomma.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 5px;
+}
+.gallery__item--5 {
+  grid-row: 1;
+  grid-column: 2;
+  background-image: url(kompisar.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 5px;
+}
+.gallery__item--6 {
+  grid-row: 2;
+  grid-column: 2;
+  background-image: url(pyssel.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 5px;
+}
+.gallery__item--7 {
+  grid-row: 3;
+  grid-column: 2;
+  background-image: url(kaffe.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 5px;
+}
+.gallery__item--8 {
+  grid-row: 4;
+  grid-column: 2;
+  background-image: url(kaffetjej.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 5px;
+}
+
+.gallery__item--9 {
+  grid-row: 5;
+  grid-column: 2;
+  background-image: url(fest.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 5px;
+}
+
+.mainContainer form {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.submit {
+  width: 80%;
+}
+
+.mainItem1 {
+  display: flex;
+  align-items: center;
+}
+.mainItem2 {
+  display: flex;
+  align-items: center;
+}
+.mainItem3 {
+  display: flex;
+  flex-direction: column;
+}
+.mainItem4 {
+  display: flex;
+  flex-direction: column;
+}
+.mainItem5 {
+  display: flex;
+  flex-direction: column;
+}
+.mainItem6 {
+  display: flex;
+  flex-direction: column;
+}
+.mainItem7 {
+  display: flex;
+  flex-direction: column;
+}
+.mainItem8 {
+  display: flex;
+  flex-direction: column;
+}
+.mainItem9 {
+  display: flex;
+  flex-direction: column;
+}
+.mainItem10 {
+  display: flex;
+}
+.mainItem11 {
+  display: flex;
+  align-items: center;
+}
+.mainItem12 {
+  display: flex;
+  align-items: center;
+}
+.mainItem13 {
+  display: flex;
+  flex-direction: column;
+}
+.mainItem14 {
+  display: flex;
+  flex-direction: column;
+}
+
+.mainText {
+  margin-bottom: 30px;
+  width: 400px;
+}
+
+.textArea {
+  display: flex;
+  width: 400px;
+  height: 100px;
+}
+
+.select,
+.input {
+  width: 400px;
+  height: 30px;
+  border-radius: 10px;
+}
+
+.input:focus {
+  border: 1px solid #003399d9;
+}
+
+.select:focus {
+  border: 1px solid #003399d9;
+}
+
+.textarea:focus {
+  border: 1px solid #003399d9;
+}
+.radio {
+  margin: 0px 10px 0px 0px;
+  width: 20px;
+  height: 20px;
+}
+
+.checkbox {
+  margin: 0px 10px 0px 0px;
+  width: 20px;
+  height: 20px;
+}
+
+.submit {
+  background-color: #003399d9;
+  color: white;
+  height: 50px;
+  width: 400px;
+  border-radius: 30px;
+}
+
+.submit:hover {
+  background-color: #003399a0;
+}
